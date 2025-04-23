@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.set("view engine", "ejs");
 
-const BACKEND_URL = process.env.BACKEND_URL || "http://backend:5000";
+const BACKEND_URL = process.env.BACKEND_URL || "http://localhost:5000";
 
 
 
